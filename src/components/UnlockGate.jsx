@@ -63,7 +63,7 @@ export default function UnlockGate({ onUnlock }) {
 
       {/* Bottom Footer Section */}
       <footer className="w-full text-center z-10 text-xs font-semibold text-rose-400/80 mt-6 select-none">
-        Make with love for my Thảo 🐰
+        Created for the one I love — Thảo 🐰
       </footer>
 
       {/* Fullscreen Success Screen Transition */}
