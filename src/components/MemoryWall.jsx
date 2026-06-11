@@ -109,7 +109,7 @@ export default function MemoryWall() {
   const polaroids = useMemo(() => {
     return Array.from({ length: 21 }, (_, index) => ({
       index,
-      src: `/img/${index + 1}.jpg`,
+      src: `${import.meta.env.BASE_URL}img/${index + 1}.jpg`,
       caption: captions[index],
       rot: `${(seededRandom(index + 101) * 24 - 12).toFixed(2)}deg`,
       delay: `${index * 170 + 900}ms`
